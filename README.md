@@ -82,3 +82,119 @@ PreservationDAO issued NFTs can be used to make governance more sustainable and 
 
 
 CREDIT: https://hackmd.io/@haurog/BkW8kuiFY
+
+
+
+## Which Network to Choose for PreservationDAO
+At the moment Ethereum is in rapid change. The high fees push low value transactions out of the main chain (L1) into rollups (L2) or sidechains. There are a lot of promising candidates onto which we could deploy the PreservationDAO each with their own advantages and disadvantages. Here I list some of the candidates with their respective pros and cons. The ones I mention here are the ones which I used and interacted with. I think I listed the most reliable general purpose options here. There are many other rollups and sidechains listed on L2beat which are not discussed here as they will have to prove themselves to be more than just short lived incentivised cash grab.
+
+
+## Ethereum Main Chain
+Pros
+
+* Most neutral layer
+* Proven to be stable and reliable
+* many projects run on it -> many yield farming opportunities
+* all DAO tools support the main layer
+* many offramps
+
+Cons
+
+* Too expensive to start anything small
+* Future will not be on this layer
+* Still running on Proof of Work (Might be attacked for being on the wasteful L1)
+
+-> Not ideal candidate
+
+
+## Arbitrum
+Pros
+
+* Already a lot of projects deployed -> Yield farming possibilities
+* Fraud proof system is implemented (Funds should be safe.)
+* some offramps support it
+
+Cons
+
+* Block producers are centralized
+* More expensive than Optimism -> An upcoming update should improve that.
+
+They had a short (less than 1 hour) outage in September and are running reliably since then.
+
+-> Good candidate
+
+
+## Optimism
+Pros
+
+* Cheaper than Arbitrum
+
+Cons
+
+*  Block producers are centralised.
+*  Fraud Proofs still not implemented.
+*  Not many projects deployed.
+*  Sequencer went down during Lyra airdrop/claim -> still early.
+
+The only advantage optimism has over arbitrum is that it is cheaper,otherwise it is behind arbitrum in every metric.
+
+-> Not better than Arbitrum
+
+
+## Polygon
+Pros
+
+* Very cheap to use
+* KlimaDAO is on it -> Gives the layer good credibility
+* A lot of projects are on it -> yield farming
+* Running for about a year now
+* some offramps support it
+
+Cons
+
+* Not a rollup, rather sidechain like -> they want to move to a rollup in the future.
+* Highly centralized -> They want to move to a rollup in the future.
+
+I am using polygon regularly even though I am personally not a big fan of them. Their whole story of “We are a rollup” rubbed me the wrong way and in my book it was a pretty shady tactics when they turned a lot of crypto OGs into advertisers for them by giving them a seat on their board. In the last months they redeemed themselves by offering a reliable sidechain with a lot of traction. And their goal of turning polygon into a zk rollup when they are ready is very promising. Their recent hack however, leaves a few question marks for me and I am not so sure about the competence of their dev team.
+
+-> Good candidate
+
+
+## Starknet
+Pros
+
+* Proper ZK rollup
+* Fast and crazily cheap
+
+Cons
+
+* Still in alpha stage.
+* No DAO tools -> Everything would need to be programmed by us.
+* Programming toolchains are also in alpha stage
+* Cannot send ETH to Starknet on the mainnet at the moment.
+
+I played with the Network on the testnet as well as on the mainnet, deployed some dummy contracts and tried (and failed) to set up my local IDE to program a contract locally. All in all I think they are promising, but pretty far away from usable.
+
+-> Not usable now
+
+
+## ZKsync
+Pros
+
+* Proper ZK rollup
+* Fast and Crazily cheap (zkporter will make transactions cost almost nothing)
+* V1 is running for over a year now
+
+Cons
+
+* No smart contracts on V1 -> should follow soon, but is delayed by several months now.
+
+Their V1 payment layer is extremely good and reliable. Unfortunately the smart contracts (V2) are still missing.
+
+-> Not usable now
+
+
+## Conclusion
+The best candidates we have is either Arbitrum or Polygon. The best one in my opinion is Polygon even though it is personally not my favorite it has the most traction at the moment. In the end, the choice between the two probably depends on available DAO toolings on each chain. This conclusion might change as soon as some large exchanges support on-/offramps to any of these rollups/sidechains and any of those start with token incentivised yield farming.
+
+CREDIT: https://hackmd.io/@haurog/rJNsOVCst
