@@ -198,3 +198,47 @@ Their V1 payment layer is extremely good and reliable. Unfortunately the smart c
 The best candidates we have is either Arbitrum or Polygon. The best one in my opinion is Polygon even though it is personally not my favorite it has the most traction at the moment. In the end, the choice between the two probably depends on available DAO toolings on each chain. This conclusion might change as soon as some large exchanges support on-/offramps to any of these rollups/sidechains and any of those start with token incentivised yield farming.
 
 CREDIT: https://hackmd.io/@haurog/rJNsOVCst
+
+
+
+## DAO tools
+Here I mention tools that are available for DAOs to align their members and come to an agreement over the direction the DAO has to go. This list is definitely incomplete and we also do not need all the tools now. Some tools work better for small DAOs, some better for large DAOs and some are only needed if the DAO is more like a company with paid workers. This overview should help to guide us what is here and what we could pick. A part of the following lists is based on the blog post by Nichinan Kesonpat: Organization Legos.
+
+
+## Discussion and Votes
+* Discord: for fast everyday discussions, small talk and alignments. Centralized and possible to censor, but probably ok for us. Later on we might need to separate the everyday chitchat and the proposal focused discussions. Good for simple signal voting as well.
+* Discourse: More focused discussion of improvement proposals. General forum. For signal voting.
+* Snapshot: To vote on proposals. In my impression a lot of DAOs use snapshot. It is a signal voting which after which an on-chain voting happens or a multisig acts upon it.
+* Tally: Good for the last step. The on-chain voting.
+* Boardroom: Good aggregator for various DAOs, their proposals and on-chain voting results. Might do more, but I am not sure about it
+
+
+## DAO Frameworks and Tools
+* Moloch: Widely used. Can be spun up using daohaus. Daohaus supports Arbitrum and Polygon. Everything looks a bit self made. Not bad it just has a bit of a DIY feel to it. Seems to work well with Gnosis safe through the safeminion module.
+* Aragon: Various DAO types are possible. A reputation based one might be the meet our needs perfectly. They provide pretty much everything you need. Feels overwhelming but looks quite professional. Long term looks like the most promising option.
+-> not on Arbitrum, but possible on Polygon
+* Openzeppelin Governor: Don’t know how many DAOs use it. Can be spun up easily, but it is not so obvious to me what these options do.
+* Colony: Not as widely used. Looks quite nice. On XDAI and mainnet only.
+* DAOStack: Not as widely used. Simple but nice. XDAI and mainnet only.
+* Gnosis safe: multisig wallet (needed to sign transactions) -> With their bridge tool we can control funds on any EVM compatible (supported) network. Pretty much every EVM network is supported. Creation costs about 0.01 ETH (on Arbitrum) depending on the number of accounts in the multisig.
+* Gnosis safesnap (Now called “Reality”): Part of the Gnosis safe with the Zodiac modules. Automated sending of transactions depending on (off-chain) governance outcome.
+* Gnosis Zodiac: Part of Gnosis Safe. Modules to extend the multisig wallet with DAO focused functionalities.
+
+
+## People Focused Tools
+* Coordinape: Tool gauge and see who interacts with whom and get a quantitative basis to hand out rewards.
+* Opolis: If people of a DAO need Payroll and Benefits (US only).
+
+
+## Managing a DAO
+* The overview from the Consensys Blockchain Bootcamp is quite comprehensive.
+
+
+## Conclusion
+For serious DAOs it looks like there is no way around Aragon. It looks professional, suitable for many different DAOs and easy to maintain. For us it might be too early, especially if we want to keep to Arbitrum.
+
+To me it looks like Gnosis safe and their additional modules are perfect and will allow us to move forward for quite some time. As far as I understand, the Gnosis framework is very modular and being built right now. So maybe new modules will become available in time during our growth.
+
+A problem with this approach is that an already deployed ERC-20 (forest token) might not be easily integrated into a DAO framewrok deployed at a later state. So we will probably have to choose the FAO framework at the time we deploy our ERC-20. But maybe the forest token also does not need to be part of the DAO framework.
+
+CREDIT: https://hackmd.io/@haurog/rJ52dNgnF
